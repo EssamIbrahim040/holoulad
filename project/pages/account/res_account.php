@@ -12,7 +12,7 @@
 </head>
 <body>
     
-<div class="container"> 
+
     <h2 class="text-center mt-5">قسم المالية</h2>
    
 <style>
@@ -88,6 +88,7 @@
          <th>الطلب</th>
          <th>تفاصيل الطلب</th>
          <th>عدد الطلب</th>
+         <th>تاريخ الاستلام</th>
          <th>السعر المبديئ</th>
       
       </thead>
@@ -116,6 +117,7 @@
             <td id="content"><?php echo $row['requer']; ?></td>
             <td id="content"><?php echo $row['detail']; ?></td>
             <td id="content"><?php echo $row['number']; ?></td>
+            <td id="content"><?php echo $row['date']; ?></td>
             <td id="content"><?php echo $row['price']; ?></td>
          </tr>
          <script>
@@ -143,10 +145,6 @@
 </section>
 
 <a href="account.php" class="btn btn-primry">متابعة</a>
-   
-<style>
-    .btn {
-        width:300px;
         font-size:22px;
     }
     </style>

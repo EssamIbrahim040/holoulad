@@ -12,7 +12,7 @@
 <body>
 <div class="container">
 
-         <h2 class="text-center mt-5">قسم التصميم</h2> 
+         <h2 class="text-center mt-5">قسم المبيعات</h2> 
         
          <form class="row g-3 needs-validation" novalidate action="sale_code.php" Method="POST">
   <div class="col-md-4">
@@ -69,7 +69,14 @@
       Please provide a valid Price.
     </div>
   </div>
- 
+  <div class="col-md-4">
+    <label for="validationCustom03" class="form-label">تاريخ استلام  الطلب</label>
+    <input type="date" class="form-control" name="date" id="validationCustom03" required>
+    <div class="invalid-feedback">
+      Please provide a valid Date.
+    </div>
+  </div>
+<br>
   <div class="col-12">
     <button class="btn btn-primary" name="submit" type="submit">Submit </button>
   </div>

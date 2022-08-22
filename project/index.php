@@ -25,7 +25,7 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <div class="card" style="width: 18rem ; height :16vh;">
+            <div class="card" style="width: 18rem ;">
             <div class="card-body">
                 <h5 class="card-title">قسم المبيعات</h5>
                 <a href="./pages/sale/sale.php" class="btn mt-3 btn-primary">اضغط هنا</a>
@@ -34,10 +34,10 @@
     </div>
 
     <div class="col">
-            <div class="card" style="width: 18rem ; height :16vh;">
+            <div class="card" style="width: 18rem ;">
             <div class="card-body">
                 <h5 class="card-title">قسم المحاسبه</h5>
-                <a href="" class="btn mt-3 btn-primary">اضغط هنا</a>
+                <a href="./pages/account/res_account.php" class="btn mt-3 btn-primary">اضغط هنا</a>
             </div>
      </div>
     </div>
@@ -47,19 +47,19 @@
 
 <div class="row">
         <div class="col">
-            <div class="card" style="width: 18rem ; height :16vh;">
+            <div class="card" style="width: 18rem ; ">
             <div class="card-body">
                 <h5 class="card-title">قسم الطباعة</h5>
-                <a href="" class="btn mt-3 btn-primary">اضغط هنا</a>
+                <a href="./pages/print/resp_print.php" class="btn mt-3 btn-primary">اضغط هنا</a>
             </div>
      </div>
     </div>
 
     <div class="col">
-            <div class="card" style="width: 18rem ; height :16vh;">
+            <div class="card" style="width: 18rem ;">
             <div class="card-body">
                 <h5 class="card-title">قسم التصنيع</h5>
-                <a href="" class="btn mt-3 btn-primary">اضغط هنا</a>
+                <a href="./pages/lab/res_lab.php" class="btn mt-3 btn-primary">اضغط هنا</a>
             </div>
      </div>
     </div>

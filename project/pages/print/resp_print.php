@@ -12,7 +12,7 @@
 </head>
 <body>
     
-<div class="container"> 
+
     <h2 class="text-center">استقبال البيانات من الحاسب </h2>
     <a href="account.php" class="btn btn-primry">انشاء فاتورة جديد</a>
 <style>
