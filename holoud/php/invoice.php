@@ -12,8 +12,8 @@
 </head>
 <body>
     
-<div class="container"> 
-    <h2 class="text-center mt-4"> استلام الطلبات</h2>
+
+    <h2 class="text-center mt-4">الفاتورة</h2>
 <style>
 
         :root{
@@ -88,14 +88,13 @@ body {
 
       <thead>
       <th>الرقم</th>
+         <th>اسم المحاسب</th>
          <th>اسم العميل</th>
-         <th>رقم الهاتف</th>
          <th>الطلب</th>
          <th>تفاصيل الطلب</th>
-         <th>عدد الطلب</th>
-         <th>السعر المبديئ</th>
-         <th>تاريخ استلام الطلب</th>
-         
+         <th>السعر الاجمالي</th>
+         <th>السعر المدفوع</th>
+         <th>السعر المتبقي</th>
       </thead>
 
       <tbody>
@@ -108,7 +107,7 @@ body {
  
        $conn =   mysqli_connect($host, $user, $password, $dbName);
    
-     $query = "SELECT * FROM data  ";
+     $query = "SELECT * FROM account  ";
      $result = mysqli_query($conn,$query);
 
            if($result){
@@ -118,15 +117,15 @@ body {
          <tr>
             <td id="content"><?php echo $row['id']; ?></td>
             <td id="content"><?php echo $row['name']; ?></td>
-            <td id="content"><?php echo $row['phone']; ?></td>
+            <td id="content"><?php echo $row['dataname']; ?></td>
             <td id="content"><?php echo $row['requer']; ?></td>
             <td id="content"><?php echo $row['detail']; ?></td>
-            <td id="content"><?php echo $row['number']; ?></td>
             <td id="content"><?php echo $row['price']; ?></td>
-            <td id="content"><?php echo $row['date']; ?></td>
+            <td id="content"><?php echo $row['priceup']; ?></td>
+            <td id="content"><?php echo $row['priceresid']; ?></td>
             <td>
            
-              
+               <!-- <a href="delete.php" name="delete_account" class="delete-btn" value=""> <i class="fas fa-trash"></i> Remove </a> -->
                <!-- <a href="design.php?edit= class="option-btn"> <i class="fas fa-edit"></i> update </a> -->
             </td>
          </tr>
@@ -143,7 +142,7 @@ body {
 
 </section>
 
-<a href="account.php" class="btn btn-primry">متابعة</a>
+<<a href="account.php" class="btn btn-primry">متابعة</a>
    
 <style>
     .btn {

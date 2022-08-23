@@ -22,10 +22,8 @@
       color:#eee;
       border:none;
      }
-    
   </style>
 <div class="container">
-    <a href="invoice.php" class="mt-4 btn btn-info">الفواتير</a>
     <form action="code.php" class="mt-4"  method="post">
          <h2 class="text-center"> انشاء فاتورة</h2> 
         

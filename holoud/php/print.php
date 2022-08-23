@@ -143,7 +143,7 @@ body {
 
 </section>
 
-<a href="account.php" class="btn btn-primry">متابعة</a>
+<a href="س.php" class="btn btn-primry">متابعة</a>
    
 <style>
     .btn {

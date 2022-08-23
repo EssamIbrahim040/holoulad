@@ -117,10 +117,12 @@ body {
          <tr>
             <td id="content"><?php echo $row['id']; ?></td>
             <td id="content"><?php echo $row['name']; ?></td>
-            <td id="content"><?php echo $row['phone']; ?></td>
+            <td id="content"><?php echo $row['dataname']; ?></td>
             <td id="content"><?php echo $row['requer']; ?></td>
             <td id="content"><?php echo $row['detail']; ?></td>
             <td id="content"><?php echo $row['price']; ?></td>
+            <td id="content"><?php echo $row['priceup']; ?></td>
+            <td id="content"><?php echo $row['priceresid']; ?></td>
             <td>
            
                <!-- <a href="delete.php" name="delete_account" class="delete-btn" value="<?=$account['id'];?>"> <i class="fas fa-trash"></i> Remove </a> -->

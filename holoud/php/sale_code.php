@@ -27,7 +27,7 @@
    if($dbutton){
     $query = "INSERT INTO data(name,phone,detail,requer,number,date,price)VALUE('$dName','$phone','$detail','$requer','$number','$date','$price')";
     $result = mysqli_query($conn,$query);
-    header("location: design.php");
+    header("location: salers.php");
 } else {
     echo " <p>iTs Not Done </p>";
 }
@@ -40,3 +40,5 @@
             text-align:center;
         }
         </style>
+
+

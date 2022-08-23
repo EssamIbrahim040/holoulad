@@ -11,9 +11,18 @@
     <title>قسم التصميم</title>
 </head>
 <body>
-
+    <style>
+        body{
+            background-color:#000;
+        }
+        .form-control, .form-control:hover {
+      background: #242424eb;
+      color:#eee;
+      border:none;
+     }
+    </style>
 <div class="container"> 
-    <h2 class="text-center">رفع ملفات التصميم </h2>
+    <h2 class="text-center mt-3 text-white">رفع الطلبات </h2>
     <?php if (isset($_GET['error'])): ?>
 		<p><?php echo $_GET['error']; ?></p>
 	<?php endif ?>

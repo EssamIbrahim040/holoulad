@@ -55,7 +55,7 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <div class="card" style="width: 18rem ; height :16vh;">
+            <div class="card" style="width: 18rem ; height :22vh;">
             <div class="card-body">
                 <h5 class="card-title">قسم المبيعات</h5>
                 <a href="./php/sale.php" class="btn mt-3 btn-primary">اضغط هنا</a>
@@ -64,7 +64,7 @@
     </div>
 
     <div class="col">
-            <div class="card" style="width: 18rem ; height :16vh;">
+            <div class="card" style="width: 18rem ; height :22vh;">
             <div class="card-body">
                 <h5 class="card-title">قسم المحاسبه</h5>
                 <a href="./php/salers.php" class="btn mt-3 btn-primary">اضغط هنا</a>
@@ -77,16 +77,16 @@
 
 <div class="row">
         <div class="col">
-            <div class="card" style="width: 18rem ; height :16vh;">
+            <div class="card" style="width: 18rem ; height :22vh;">
             <div class="card-body">
                 <h5 class="card-title">قسم الطباعة</h5>
-                <a href="./php/res_print.php" class="btn mt-3 btn-primary">اضغط هنا</a>
+                <a href="./php/print.php" class="btn mt-3 btn-primary">اضغط هنا</a>
             </div>
      </div>
     </div>
 
     <div class="col">
-            <div class="card" style="width: 18rem ; height :16vh;">
+            <div class="card" style="width: 18rem ; height :22vh;">
             <div class="card-body">
                 <h5 class="card-title">قسم التصنيع</h5>
                 <a href="" class="btn mt-3 btn-primary">اضغط هنا</a>
